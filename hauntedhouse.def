@@ -27,7 +27,8 @@ from: neurodebian:jessie
     conda install\
         pip=9.0.1 \
         numpy=1.11.3 scipy=0.18.1 scikit-learn=0.18.1 scikit-image=0.12.3 \
-        pandas=0.19.2 seaborn=0.7.1 jupyter ipython=5.3.0 joblib=0.9.4
+        pandas=0.19.2 seaborn=0.7.1 jupyter ipython=5.3.0 joblib=0.9.4 \
+        pyqt=4
     conda clean --tarballs
     pip install mne==0.13 duecredit
 
